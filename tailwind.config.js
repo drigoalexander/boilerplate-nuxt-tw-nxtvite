@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       animation: {
         flip: 'flip 5s infinite ease-in-out',
+        pop: 'pop 2s ease-in-out 1',
       },
       keyframes: {
         flip: {
@@ -24,6 +25,18 @@ module.exports = {
 
           '100%': {
             transform: 'rotateY(0deg)',
+          },
+        },
+        pop: {
+          '0%': {
+            transform: 'scale(1)',
+          },
+          '30%': {
+            transform: 'scale(0.9)',
+          },
+
+          '100%': {
+            transform: 'scale(1)',
           },
         },
       },

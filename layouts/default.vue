@@ -1,5 +1,6 @@
 <template>
-  <div class="min-h-screen flex justify-center items-center w-full flex-col">
+  <div class="min-h-screen flex w-full flex-col">
+    <Navbar />
     <Welcome />
     <Nuxt />
     <Toast />
@@ -8,7 +9,8 @@
 
 <script>
 import Toast from '~/components/Toast.vue'
-export default { components: { Toast } }
+import Navbar from '~/components/Navbar.vue'
+export default { components: { Toast, Navbar } }
 </script>
 
 <style></style>

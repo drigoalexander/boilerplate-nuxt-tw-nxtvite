@@ -43,6 +43,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxt/postcss8',
     'nuxt-vite',
+    'nuxt-gsap-module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -50,7 +51,7 @@ export default {
     'cookie-universal-nuxt',
     '@nuxtjs/moment',
     // https://go.nuxtjs.dev/axios
-
+    // '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
