@@ -1,7 +1,11 @@
 {
-  "name": "boilerplate",
+  "name": "baze-nuxt",
   "version": "1.0.0",
-  "private": true,
+  "description": "Nuxt starting boilerplate with GSAP, Tailwind 3 and Vite.",
+  "bin": {
+    "baze-nuxt": "./generate.js"
+  },
+  "author": "Drigo Alexander",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
